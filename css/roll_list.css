@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.roll-list-item-container {
+    clear: both;
+    margin: 10px;
+    background-color: #68CBE0;
+    margin-bottom: 10px;
+    height: 54px;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
+
+
+#roll-list-container {
+    position: relative;
+    margin-top: 40px;
+    font-family: cursive;
+}
+
+.roll_no {
+    font-size: 12px;
+}
+
+.name {
+    font-size: 21px;
+}
+
+#stat {
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #68CBE0;
+    font-size: 42px;
+}
+
+
+.roll-list-inner-container {
+    padding-left: 7px;
+    text-align: left;
+    width: 70%;
+    float: left;
+}
+
+.percentage {
+    position: relative;
+    width: 40px;
+    top: 7px;
+    right: 13px;
+    font-size: 21px;
+    float: right;
+}
+
+.classId {
+    padding-left: 10px;
+    position: relative;
+    top: 7px;
+    font-size: 23px; 
+    float: left;   
+    width: 15%;
+    max-width: 30px;
+}
+
+.roll-details {
+    margin-left: auto;
+    float: left;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 85%;
+    color: #68CBE0;
+    height: 33px;
+    font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.37);
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgba(128, 128, 128, 0.45);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgba(128, 128, 128, 0.45);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgba(128, 128, 128, 0.45);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgba(128, 128, 128, 0.45);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    rgba(128, 128, 128, 0.45);
+}
+
+.blue-button {
+    height: 35px;
+    width: 30%;
+    float: right;
+    max-width: 35px;
+    font-size: medium;
+    border: none;
+    border-radius: 50%;
+    background-color: #68CBE0;
+    color: white;
+}
+
+#go_details {
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#timeTable-container, tr, th, td {
+}
+
+th, td {
+    height: 15vw;
+    width: 15vw;
+    min-width: fit-content;
+}
+
+.slotA {
+    background-color: red;
+}
+
+.slotB {
+    background-color: green;
+}
+
+.slotC {
+    background-color: deepskyblue;
+}
+
+.slotD {
+    background-color: gold;
+}
+
+.slotE {
+    background-color: maroon;
+}
+
+.slotF {
+    background-color: darkblue;
+}
+
+.slotG {
+    background-color: purple;
+}
+
+.slotH {
+    background-color: hotpink;
+}
+
+.slotP {
+    background-color: maroon;
+}
+
+.slotQ {
+    background-color: darkblue;
+}
+
+.slotR {
+    background-color: purple;
+}
+
+.slotS {
+    background-color: deepskyblue;
+}
+
+.slotT {
+    background-color: green;
+}
+
+.blank {
+    background-color: black;
+}
+
+.time {
+    font-weight: bold;
+}
